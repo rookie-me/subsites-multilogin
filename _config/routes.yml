@@ -1,0 +1,7 @@
+---
+Name: subsite-multilogin_routes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'subsitelogin' : 'SubsiteLogin_Controller'

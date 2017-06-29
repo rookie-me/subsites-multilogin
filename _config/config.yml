@@ -1,0 +1,16 @@
+---
+Name: subsite-multilogin
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+Injector:
+  MemberLoginForm:
+    class: SubsiteMemberLoginForm
+
+SubsiteDomain:
+  extensions:
+    - SubsiteDomainExtension
+
+SubsiteLogin_Controller:
+  url_segment: "subsitelogin"
