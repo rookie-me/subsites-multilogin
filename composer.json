@@ -1,9 +1,9 @@
 {
 	"name": "rookie-me/subsites-multilogin",
 	"description": "Allow a single login process to propogate across multiple Subsite Domains.",
+    "type": "silverstripe-module",
 	"keywords": ["silverstripe", "CMS", "subsites", "multilogin"],
-	"license": "BSD-3-Clause",
-	"minimum-stability": "dev",
+    "license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Tim Larsen",
@@ -11,8 +11,8 @@
 		}
 	],
 	"require": {
-		"silverstripe/framework": "~3.5",
-		"silverstripe/cms": "~3.5",
+		"silverstripe/framework": "~3.6",
+		"silverstripe/cms": "~3.6",
 		"silverstripe/subsites": "^1.3"
 	}
 }
