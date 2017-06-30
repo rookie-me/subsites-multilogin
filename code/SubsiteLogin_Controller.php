@@ -63,6 +63,8 @@
                 $requestVarsArray[ "UID" ] = $member->TempIDHash;
                 $requestVarsArray[ "Token" ] = $member->generateAutologinTokenAndStoreHash( 1 );
 
+                // Add a hook to pass more data down the line
+                $member->extend( "onAfterMultiLogin", $requestVarsArray );
             }
 
             $next = $this->nextLink( $requestVarsArray );
