@@ -10,7 +10,7 @@ Extension for [silverstripe-subsites](https://github.com/silverstripe/silverstri
 ## Installation
 Use composer to install this module
 
-```composer require rookieme/subsites-multilogin```
+```composer require rookie-me/subsites-multilogin```
 
 After a `dev/build`, go to the CMS > Subsites > Domains. Here you'll be able to set the `LoginWith` domains, and see which domains are using this domain to log in.
 

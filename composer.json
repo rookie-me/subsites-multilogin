@@ -1,5 +1,5 @@
 {
-	"name": "rookieme/subsites-multilogin",
+	"name": "rookie-me/subsites-multilogin",
 	"description": "Allow a single login process to propogate across multiple Subsite Domains.",
 	"keywords": ["silverstripe", "CMS", "subsites", "multilogin"],
 	"license": "BSD-3-Clause",
