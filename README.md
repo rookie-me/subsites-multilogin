@@ -1,4 +1,4 @@
-#silverstripe-subsites-multilogin
+# silverstripe-subsites-multilogin
 
 Extension for [silverstripe-subsites](https://github.com/silverstripe/silverstripe-subsites) to allow a single login process to propogate across multiple Subsite Domains. This is accomplished by injecting a new `MemberLoginForm` and processing a request on each domain using existing Silverstripe database columns (`TempID` and `AutoLoginHash`). This allows a seamless transition between subsite domains even across top-level domains (i.e. not restricted to subdomains of the same site).
 
@@ -31,7 +31,7 @@ See [License](license.md)
 ## Maintainers
  * Tim Larsen <tim@rookieme.com>
  
-##Notes:
+## Notes
 - All domains should be https (generally speaking, but especially for any login functionality)
 - The `logInUserAndRedirect` function has been overwritten, but _most_ of the original functionality should remain - the "Remember me" functionality _may_ be broken
 - If a Member is already logged in on one of the domains, they are not logged out
@@ -57,7 +57,7 @@ Please report security issues to the module maintainers directly. Please don't f
 ## Development and contribution
 If you would like to make contributions to the module please ensure you raise a pull request and discuss with the module maintainers. I'm always on the silverstripe-users Slack channel if you've got any ideas on how to improve this module.
 
-##TODO:
+## TODO
 - Verify referrer on `SubsiteLogin_Controller`  
 - Offer multiple methods of logging in
 - Better error logging/handling
